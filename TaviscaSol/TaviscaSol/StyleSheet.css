@@ -1,5 +1,6 @@
 ﻿body {
     width:auto;
+    background-color:antiquewhite;
 }
 
 #admin.OnClick{
@@ -10,5 +11,15 @@
 
 #user.OnClick{
     /**/border:thick;
+        border-color:black;
+}
+basic{
+    border:thin;
+
+}
+special{
+
+}
+homebtn{
 
 }
