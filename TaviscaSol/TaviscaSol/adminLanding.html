@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="index.js"></script>
+
+    <title>AdminPage</title>
+</head>
+<body>
+
+    <div>
+        <h2>ADMIN PAGE</h2>
+        <button class="tablinks" id="home " onclick="window.location.href='/index.html'">Home Page</button>
+    </div>
+
+    <div class="admin-function">
+        <button class="tablinks" id="admin-add">Add</button>
+    </div>
+
+    <div class="admin-add-tab">
+        <button class="tablinks" onclick="window.location.href='/addCar.html'">Cars +</button>
+        <button class="tablinks" onclick="window.location.href='/addHotel.html'">Hotels +</button>
+        <button class="tablinks" onclick="window.location.href='/addFlights.html'">Flights +</button>
+        <button class="tablinks" onclick="window.location.href='/addActivity.html'">Activity +</button>
+    </div>
+    <p>Click To View</p>
+    <div class="user-tab">
+        <button class="tablinks" onclick="openCar(event,'Car')">Cars</button>
+        <button class="tablinks" onclick="openHotel(event,'Hotel')">Hotels</button>
+        <button class="tablinks" onclick="openFlight(event,'Air')">Flights</button>
+        <button class="tablinks" onclick="openActivity(event,'Activity')">Activity</button>
+    </div>
+    <br />
+    <div id='tab-list'>
+    </div>
+</body>
+</html>

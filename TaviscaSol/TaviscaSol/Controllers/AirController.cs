@@ -35,7 +35,7 @@ namespace TaviscaSol.Controllers
             }
         }
         [HttpPost]
-        public void InsertInto([FromBody]Air air)
+        public void InsertInto(Air air)
         {
             using (Entities entity = new Entities())
             {

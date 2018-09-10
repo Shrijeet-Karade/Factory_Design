@@ -1,0 +1,14 @@
+﻿body {
+    width:auto;
+}
+
+#admin.OnClick{
+    border:thick;
+    /*hide user
+        //display admin functions add and view*/
+}
+
+#user.OnClick{
+    /**/border:thick;
+
+}

@@ -28,7 +28,7 @@ namespace TaviscaSol.Controllers
                     entity.Cars.Find(item.Id).isBooked = true;
                     entity.SaveChanges();
                 }
-                else if(item.Type=="Save")
+                else if(item.Type=="save")
                 {
                     entity.Cars.Find(item.Id).isSaved = true;
                     entity.SaveChanges();
@@ -36,7 +36,7 @@ namespace TaviscaSol.Controllers
             }
         }
         [HttpPost]
-        public void InsertInto([FromBody]Car car)
+        public void InsertInto(Car car)
         {
             using (Entities entity = new Entities())
             {

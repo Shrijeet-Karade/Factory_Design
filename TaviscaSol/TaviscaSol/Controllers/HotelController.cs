@@ -35,13 +35,15 @@ namespace TaviscaSol.Controllers
             }
         }
         [HttpPost]
-        public void InsertInto([FromBody]Hotel hotel)
+        public void InsertInto(Hotel hotel)
         {
             using (Entities entity = new Entities())
             {
                 entity.Hotels.Add(hotel);
                 entity.SaveChanges();
+                
             }
+            
         }
     }
 }

@@ -38,7 +38,7 @@ namespace TaviscaSol.Controllers
             }
         }
         [HttpPost]
-        public void InsertInto([FromBody]Activity activity)
+        public void InsertInto(Activity activity)
         {
             using (Entities entity = new Entities())
             {

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="index.js"></script>
+    <title>HomePage</title>
+    <title></title>
+</head>
+<body>
+    <div>
+        <h2>USER PAGE</h2>
+        <button class="tablinks" id="home " onclick="window.location.href='/index.html'">Home Page</button>
+    </div>
+
+    <div class="user-tab">
+        <button class="tablinks" onclick="GetList('Car')">Cars</button>
+        <button class="tablinks" onclick="GetList('Hotel')">Hotels</button>
+        <button class="tablinks" onclick="GetList('Air')">Flights</button>
+        <button class="tablinks" onclick="GetList('Activity')">Activity</button>
+    </div>
+    <br />
+    <div id='tab-list'>
+    </div>
+</body>
+</html>
