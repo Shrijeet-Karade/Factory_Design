@@ -1,0 +1,12 @@
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\bin\Debug\DBAccess.dll.config
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\bin\Debug\DBAccess.dll
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\bin\Debug\DBAccess.pdb
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\bin\Debug\EntityFramework.dll
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\bin\Debug\EntityFramework.xml
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\obj\Debug\DBAccess.csprojAssemblyReference.cache
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\obj\Debug\DBAccess.csproj.CoreCompileInputs.cache
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\obj\Debug\DBAccess.csproj.CopyComplete
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\obj\Debug\DBAccess.dll
+c:\users\skarade\source\repos\TaviscaSol\DBAccess\obj\Debug\DBAccess.pdb
