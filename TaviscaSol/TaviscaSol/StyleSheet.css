@@ -1,0 +1,30 @@
+﻿body {
+    width:auto;
+    background-color:antiquewhite;
+    align-content:center;
+}
+
+#admin.OnClick{
+    border:thick;
+    /*hide user
+        //display admin functions add and view*/
+}
+
+#user.OnClick{
+    /**/border:thick;
+        border-color:black;
+}
+basic{
+    border:thin;
+
+}
+special{
+
+}
+homebtn{
+
+}
+tab-links{
+    align-content:center;
+    padding:5px;
+}

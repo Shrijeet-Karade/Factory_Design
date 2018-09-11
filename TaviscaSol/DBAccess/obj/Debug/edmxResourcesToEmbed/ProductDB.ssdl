@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="isSaved" Type="bit" />
+    <Property Name="isBooked" Type="bit" />
+    <Property Name="Location" Type="nchar" MaxLength="10" />
+    <Property Name="Time" Type="time" Precision="7" />
+    <Property Name="Duration" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Air">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="isSaved" Type="bit" />
+    <Property Name="isBooked" Type="bit" />
+    <Property Name="From" Type="nchar" MaxLength="10" />
+    <Property Name="To" Type="nchar" MaxLength="10" />
+    <Property Name="DepartureDate" Type="date" />
+    <Property Name="ArrivalDate" Type="date" />
+  </EntityType>
+  <EntityType Name="Car">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="isSaved" Type="bit" />
+    <Property Name="isBooked" Type="bit" />
+    <Property Name="From" Type="nchar" MaxLength="10" />
+    <Property Name="To" Type="nchar" MaxLength="10" />
+    <Property Name="DepartureDate" Type="date" />
+    <Property Name="ArrivalDate" Type="date" />
+  </EntityType>
+  <EntityType Name="Hotel">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="isSaved" Type="bit" />
+    <Property Name="isBooked" Type="bit" />
+    <Property Name="Location" Type="nchar" MaxLength="10" />
+    <Property Name="From" Type="date" />
+    <Property Name="To" Type="date" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Activity" EntityType="Self.Activity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Air" EntityType="Self.Air" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Car" EntityType="Self.Car" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hotel" EntityType="Self.Hotel" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

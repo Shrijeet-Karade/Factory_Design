@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="index.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>Car</h2>
+    <div class="basic">
+
+        ID:<br>
+        <input type="number" name="Id" class="carInp"><br>
+        Product Name:<br>
+        <input type="text" name="Product name" class="carInp"><br />
+        Price:<br>
+        <input type="number" name="Price" class="carInp"><br>
+        isSaved :<br />
+        <input type="text" name="book"><br />
+        isBooked:<br />
+        <input type="text" name="save"><br />
+
+        <button onclick="PostMethod('Car')">submit</button>
+
+
+    </div>
+
+    <button class="tablinks" onclick="openCar(event,'Car')">Cars</button>
+
+    <br />
+    <div id='tab-list'>
+    </div>
+
+</body>
+</html>
