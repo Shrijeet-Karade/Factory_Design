@@ -10,11 +10,15 @@ namespace TaviscaSol.Controllers
 {
     public class HotelController : ApiController
     {
+        CacheD cache = new CacheD();
+        static List<Hotel> AllHotelDb = new List<Hotel>();
         public IEnumerable<Hotel> GetHotelEntity()
         {
             using (Entities entities = new Entities())
             {
-                return entities.Hotels.ToList();
+                AllHotelDb = cache.GetAllHotel();
+                return AllHotelDb;
+
             }
         }
         [HttpPut]

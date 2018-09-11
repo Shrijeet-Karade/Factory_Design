@@ -10,11 +10,14 @@ namespace TaviscaSol.Controllers
 {
     public class AirController : ApiController
     {
+        CacheD cache = new CacheD();
+        static List<Air> AllFlightDb = new List<Air>();
         public IEnumerable<Air> GetAirEntity()
         {
             using (Entities entities = new Entities())
             {
-                return entities.Airs.ToList();
+                AllFlightDb = cache.GetAllAir();
+                return AllFlightDb;
             }
         }
         [HttpPut]

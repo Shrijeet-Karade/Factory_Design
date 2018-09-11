@@ -10,12 +10,17 @@ using TaviscaSol.Models;
 namespace TaviscaSol.Controllers
 {
     public class CarController : ApiController
+
     {
+        CacheD cache = new CacheD();
+        static List<Car> AllCarDb = new List<Car>();
         public IEnumerable<Car> GetCarEntity()
         {
             using (Entities entities = new Entities())
             {
-                return entities.Cars.ToList();
+                AllCarDb = cache.GetAllCar();
+                return AllCarDb;
+                
             }
         }
         [HttpPut]

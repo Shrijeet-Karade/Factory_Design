@@ -1,6 +1,7 @@
 ﻿body {
     width:auto;
     background-color:antiquewhite;
+    align-content:center;
 }
 
 #admin.OnClick{
@@ -22,4 +23,8 @@ special{
 }
 homebtn{
 
+}
+tab-links{
+    align-content:center;
+    padding:5px;
 }

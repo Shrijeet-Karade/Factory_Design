@@ -12,11 +12,15 @@ namespace TaviscaSol.Controllers
 {
     public class ActivityController : ApiController
     {
+        static List<Activity> AllActivityDb = new List<Activity>();
+        CacheD cache = new CacheD();
         public IEnumerable<Activity> GetActivityEntity()
         {
             using (Entities entities = new Entities())
             {
-                return entities.Activities.ToList();
+                AllActivityDb=cache.GetAllActivity();
+                return AllActivityDb;
+
             }
         }
 
