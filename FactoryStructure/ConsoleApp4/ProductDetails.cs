@@ -13,7 +13,8 @@ namespace ConsoleApp4
             switch (description)
             {
                 case "Car": return new CarProduct();
-                               
+                case "Air": return new AirProduct();
+                case "Hotel": return new HotelProduct();    
                 default: return null;
             }
 
