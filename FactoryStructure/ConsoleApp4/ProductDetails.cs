@@ -15,6 +15,7 @@ namespace ConsoleApp4
                 case "Car": return new CarProduct();
                 case "Air": return new AirProduct();
                 case "Hotel": return new HotelProduct();    
+                case "Activity": return new ActivityProduct();    
                 default: return null;
             }
 
