@@ -1,0 +1,14 @@
+C:\Users\skarade\Desktop\FactoryStructure\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\skarade\Desktop\FactoryStructure\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\skarade\Desktop\FactoryStructure\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\skarade\Desktop\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\skarade\Desktop\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\skarade\Desktop\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\skarade\Desktop\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+C:\Users\skarade\Desktop\machineShiftRepo-Dowload\FactoryStructure\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\skarade\Desktop\machineShiftRepo-Dowload\FactoryStructure\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\skarade\Desktop\machineShiftRepo-Dowload\FactoryStructure\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\skarade\Desktop\machineShiftRepo-Dowload\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\skarade\Desktop\machineShiftRepo-Dowload\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\skarade\Desktop\machineShiftRepo-Dowload\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\skarade\Desktop\machineShiftRepo-Dowload\FactoryStructure\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
